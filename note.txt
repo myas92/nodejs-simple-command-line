@@ -1,0 +1,18 @@
+1: add bin to package.json
+  "bin": {
+    "cli": "bin/index.js"
+  },
+
+cli: cli is your command (cli translate hello)
+path of #! /usr/bin/env node
+
+-----------------------------------------------------
+2: into path of bin add this line:
+#! /usr/bin/env node
+----------------------------------------------------
+3: based on this documentation
+https://developer.okta.com/blog/2019/06/18/command-line-app-with-nodejs
+----------------------------------------------------------------------------------
+4: At the end install the updated script and run it.
+npm install -g .
+----------------------------------------------------------------------------------
